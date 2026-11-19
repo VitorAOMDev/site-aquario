@@ -1,7 +1,7 @@
 Peixes de Aquário — Atividade 1 (HTML Semântico)
 
 Tema: Peixes de Aquário
-**Site publicado:** https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/
+**Site publicado:** ([https://vitoraomdev.github.io/site-aquario/](https://vitoraomdev.github.io/site-aquario/))
 
  O que foi feito na Atividade 1
 - Estrutura semântica com `header`, `nav`, `main`, `aside` e `footer`
