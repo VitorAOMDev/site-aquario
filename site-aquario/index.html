@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Peixes de Aquário — Guia para Iniciantes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topo">
+    <h1>Peixes de Aquário</h1>
+    <p>Um guia simples para quem quer montar o primeiro aquário.</p>
+    <nav>
+      <ul>
+        <li><a href="#especies">Espécies</a></li>
+        <li><a href="#comparativo">Comparativo</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="layout">
+    <main id="conteudo">
+      <section id="especies">
+        <h2>Três espécies para começar</h2>
+        <p>Estas espécies são comuns em lojas, de fácil manutenção e ótimas para quem está começando na <strong>aquariofilia</strong>.</p>
+
+        <article>
+          <h3>Betta</h3>
+          <figure>
+            <img src="imagens/betta.png" alt="Peixe betta vermelho nadando, com nadadeiras longas e ondulantes abertas" width="700" height="438">
+            <figcaption>O betta (<i>Betta splendens</i>) tem nadadeiras longas e coloridas.</figcaption>
+          </figure>
+          <p>O betta é conhecido pela beleza e pelo comportamento territorial. Os machos devem viver <strong>sozinhos</strong>, pois brigam entre si. Ele respira ar da superfície, então o aquário precisa de uma tampa com folga para o ar.</p>
+        </article>
+
+        <article>
+          <h3>Neon</h3>
+          <figure>
+            <img src="imagens/neon.png" alt="Peixe neon visto de lado, com uma faixa azul brilhante e a parte de trás do corpo vermelha" width="547" height="365">
+            <figcaption>O neon (<i>Paracheirodon innesi</i>) é pequeno e vive em cardume.</figcaption>
+          </figure>
+          <p>O neon é um peixe pacífico que se sente seguro em grupo. O ideal é manter <em>pelo menos seis</em> indivíduos juntos. A faixa azul brilhante chama atenção, principalmente em aquários com plantas e luz suave.</p>
+        </article>
+
+        <article>
+          <h3>Guppy</h3>
+          <figure>
+            <img src="imagens/guppy.png" alt="Guppy preto nadando, com uma cauda larga em formato de leque" width="640" height="480">
+            <figcaption>O guppy (<i>Poecilia reticulata</i>) é resistente e tem a cauda larga. Na foto, um macho da variedade preta.</figcaption>
+          </figure>
+          <p>O guppy é resistente, aceita bem vários tipos de ração e se reproduz com facilidade. Os machos são mais coloridos e menores, e as fêmeas são maiores e mais discretas. Se não houver controle, a população cresce muito rápido.</p>
+        </article>
+      </section>
+
+      <section id="comparativo">
+        <h2>Comparativo rápido</h2>
+        <table>
+          <caption>Valores de referência para as três espécies (podem variar conforme a fonte e o tamanho do aquário)</caption>
+          <thead>
+            <tr>
+              <th scope="col">Espécie</th>
+              <th scope="col">Tamanho adulto</th>
+              <th scope="col">Temperatura ideal</th>
+              <th scope="col">Aquário mínimo</th>
+              <th scope="col">Convivência</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Betta</th>
+              <td>6 a 7 cm</td>
+              <td>24 a 28 °C</td>
+              <td>20 L</td>
+              <td>Macho solitário</td>
+            </tr>
+            <tr>
+              <th scope="row">Neon</th>
+              <td>3 a 4 cm</td>
+              <td>22 a 26 °C</td>
+              <td>40 L</td>
+              <td>Cardume de 6 ou mais</td>
+            </tr>
+            <tr>
+              <th scope="row">Guppy</th>
+              <td>3 a 6 cm</td>
+              <td>22 a 28 °C</td>
+              <td>20 L</td>
+              <td>Pacífico, em grupo</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="contato">
+        <h2>Fale comigo</h2>
+        <p>Tem uma dúvida ou uma sugestão para o guia? Preencha o formulário abaixo. Os campos com asterisco (*) são obrigatórios.</p>
+
+        <form method="post">
+          <fieldset>
+            <legend>Seus dados</legend>
+
+            <label for="nome">Nome completo *</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail *</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone (opcional)</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(34) 99999-9999">
+          </fieldset>
+
+          <fieldset>
+            <legend>Sua mensagem</legend>
+
+            <label for="assunto">Assunto *</label>
+            <select id="assunto" name="assunto" required>
+              <option value="">Escolha um assunto</option>
+              <option value="duvida">Dúvida sobre uma espécie</option>
+              <option value="aquario">Montagem do aquário</option>
+              <option value="sugestao">Sugestão para o site</option>
+            </select>
+
+            <fieldset>
+              <legend>Qual é a sua experiência? *</legend>
+              <input type="radio" id="nivel-iniciante" name="nivel" value="iniciante" required>
+              <label for="nivel-iniciante">Sou iniciante</label>
+              <input type="radio" id="nivel-experiente" name="nivel" value="experiente">
+              <label for="nivel-experiente">Já tenho aquário</label>
+            </fieldset>
+
+            <label for="mensagem">Mensagem *</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+            <input type="checkbox" id="resposta" name="resposta" value="sim">
+            <label for="resposta">Quero receber a resposta por e-mail</label>
+          </fieldset>
+
+          <button type="submit">Enviar mensagem</button>
+        </form>
+      </section>
+    </main>
+
+    <aside>
+      <h2>Antes de comprar</h2>
+      <p>Monte e deixe o aquário funcionando por <strong>cerca de duas semanas</strong> antes de colocar os peixes. Nesse tempo, o filtro biológico se forma e a água fica estável.</p>
+      <p><em>Nunca</em> coloque peixes direto da loja no aquário: deixe o saquinho boiando por 15 a 20 minutos para igualar a temperatura.</p>
+      <p>Atualizado em <time datetime="2026-11-18">18 de novembro de 2026</time>.</p>
+    </aside>
+  </div>
+
+  <footer>
+    <p>Site criado para a disciplina de Linguagem de Programação para Web, no curso de Análise e Desenvolvimento de Sistemas do IFTM, Campus Uberaba Parque Tecnológico.</p>
+    <address>
+      Contato: <a href="mailto:vitor.maciel@estudante.iftm.edu.br">vitor.maciel@estudante.iftm.edu.br</a><br>
+      Uberaba, Minas Gerais
+    </address>
+    <p><small>&copy; time datetime="2026">2026</time> Vitor Alexandre de Oliveira Maciel. Todos os direitos reservados.</small></p>
+  </footer>
+</body>
+</html>
+
+ 
