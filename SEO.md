@@ -21,9 +21,13 @@
 
 | Categoria      | Antes | Depois |
 |----------------|-------|--------|
-| Desempenho     |       |        |
-| Acessibilidade |       |        |
-| Boas práticas  |       |        |
-| SEO            |       |        |
+| Desempenho     | 74    | 91     |
+| Acessibilidade | 100   | 100    |
+| Boas práticas  | 96    | 100    |
+| SEO            | 91    | 100    |
 
+## O que melhorou e por quê
+- **Desempenho (74 → 91):** troquei as fotos de PNG para WebP, e o LCP caiu de 5,9 s para cerca de 2,6 s.
+- **SEO (91 → 100):** adicionei meta description, canonical e links com texto descritivo.
+- **Acessibilidade:** o Lighthouse apontou baixo contraste no link do aside (95). Escureci a cor desse link e a nota voltou a 100.
 Prints: `imagens/lighthouse-antes.png` e `imagens/lighthouse-depois.png`
