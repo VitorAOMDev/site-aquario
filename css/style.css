@@ -223,3 +223,6 @@ address {
     flex: 1;
   }
 }
+aside a {
+  color: #0b3a4a;
+}
