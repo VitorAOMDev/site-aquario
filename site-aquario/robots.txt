@@ -1,5 +1,0 @@
-# robots.txt de vitoraomdev.github.io/site-aquario
-User-agent: *
-Disallow:
-
-Sitemap: https://vitoraomdev.github.io/site-aquario/sitemap.xml
